@@ -14,7 +14,7 @@ Character class [] :
 
 \ - backslash or Escape character - Used to escape(hide or treat the imeadiate followed latter as literals like a,b,Z etc) the character that having special meaning to RegEx engine. 
 
-Anchors: 
+Anchors Tag: 
     ^ - Carat symbole ouside character class - Outside character class its placeholder for beginning of the line. 
     $ - Doller Symbol - is a Placeholder that signifies end of the line. 
 
