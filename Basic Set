@@ -1,4 +1,13 @@
+RegEx Symbol - POSIX ( Operating System interface)
+--------------
+
+NOTE: All below symbol work for single Character position 
+ 
 *  - astric symbol - Zero or more occurance
 .  - Dot Symbol - Any character
 /s - Backward slash - For space
-Character class --> [abc] - only one 
+
+Character class -->
+    [abc] - only one 
+ 
+ ^ - Exclusion / Caret Symbol /Exponent Operator 
