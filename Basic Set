@@ -1,13 +1,20 @@
 RegEx Symbol - POSIX ( Operating System interface)
---------------
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 NOTE: All below symbol work for single Character position 
  
 *  - astric symbol - Zero or more occurance
-.  - Dot Symbol - Any character
-/s - Backward slash - For space
+.  - WildCard /  Dot Symbol / Peroid - Any character
+/s - Backward slash 's' - For space
 
-Character class -->
+Character class [] :
     [abc] - only one 
- 
- ^ - Exclusion / Caret Symbol /Exponent Operator 
+    ^     - Negation symbol/ Exclusion / Caret Symbol /Exponent Operator 
+    [a-c] - Range expression (range should be in between ASCII set)
+
+\ - backslash or Escape character - Used to escape(hide or treat the imeadiate followed latter as literals like a,b,Z etc) the character that having special meaning to RegEx engine. 
+
+Anchors: 
+    ^ - Carat symbole ouside character class - Outside character class its placeholder for beginning of the line. 
+    $ - Doller Symbol - is a Placeholder that signifies end of the line. 
+
