@@ -1,0 +1,4 @@
+*  - astric symbol - Zero or more occurance
+.  - Dot Symbol - Any character
+/s - Backward slash - For space
+Character class --> [abc] - only one 
