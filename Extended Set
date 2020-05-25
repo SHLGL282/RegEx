@@ -6,3 +6,8 @@ In Grep Cmd we have to use -E if we are using any Extended set symbol.
 a{m}   - Repeater - it repeat or search 'a' for 'm' times.
 a{m,n} - Range    - it repeat or search 'a' for atleat 'm' times and atmost 'n' times.
 
+() - Parenthesis - is used to group and treat as a single entity.
++ - Plus Symbol - One or more occurance of 'any character'.
+? - Question Mark Symbol - Zero or One Occurance of any Character.
+
+(a|b) - pipe - either a or b 
