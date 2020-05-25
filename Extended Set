@@ -1,1 +1,8 @@
+Extende set :
+
+In Grep Cmd we have to use -E if we are using any Extended set symbol.
+  grep -E 'Pattern in single quote' <file_Name>
+
+a{m}   - Repeater - it repeat or search 'a' for 'm' times.
+a{m,n} - Range    - it repeat or search 'a' for atleat 'm' times and atmost 'n' times.
 
