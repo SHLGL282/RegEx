@@ -5,7 +5,7 @@ NOTE: All below symbol work for single Character position
  
 *  - astric symbol - Zero or more occurance
 .  - WildCard /  Dot Symbol / Peroid - Any character
-/s - Backward slash 's' - For space
+\s - Backward slash 's' - For space
 
 Character class [] :
     [abc] - only one 
